@@ -1,0 +1,90 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+body{
+    background-color: black; /*cor fundo*/
+    color: white; /* cor da fonte*/
+}
+
+.topo{
+    padding: 20px 0; /*margem interna 20px(superior e inferior)  0(esq e dir)*/    
+}
+
+.menu{
+    display: flex; /* alinha na horizontal*/
+    justify-content: space-around; /* deixa o mesmo espaço entre os elementos */
+}
+
+/* altera todos os <li> que estão dentro do menu*/
+.menu li{
+    list-style: none; /*remove o marcador da lista*/
+    padding: 10px; /*espaçamento interno*/
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none; /* remove o sublinhado do link*/
+}
+
+/* :hover aplica as propriedades ao passar o curso do mouse sobre o elemento*/
+.menu li a:hover{
+    text-decoration: underline; /* sublinha o texto*/
+}
+
+.btn-roxo{
+    background-color: #4b22b9;
+    padding: 10px; /* margem interna*/
+    border: 1px solid #4b22b9;
+    border-radius: 5px; /* arredonda a borda */
+    text-align: center; /* centraliza o texto */
+    color: white; /* cor da fonte */
+}
+
+.home-principal{
+    height: 450px; /* altura fixa */
+    background-image: url("imagens/cidade.jpg");
+    background-size: cover;
+    margin-bottom: 20px; /* margem inferior */
+}
+
+.texto-principal{
+    padding: 20px;
+    color: white;
+}
+
+.jogo-destaque{
+    padding: 10px; /* margem interna (todos os lados)*/
+}
+
+/* altera a div que está dentro da classe 'jogo-destaque' */
+.jogo-destaque div{
+    
+    border-radius: 5px; /* borda arredondada */
+    height: 250px;
+    overflow: hidden;
+}
+
+.jogo-destaque div img{
+    width: 230px;  /* largura*/
+    height: 120px; /* altura*/
+}
+
+.jogo-destaque div h4{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.categoria-jogo{
+    background-color: #4b22b9;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.texto-principal-jogos{
+    padding: 20px;
+    text-align: center;
+}
+
+.espaco{
+   gap: 10px;
+}
